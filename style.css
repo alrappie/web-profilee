@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    /* text-decoration: none; */
+    color: rgb(255, 255, 255);
+}
+body{
+    background-color: #292929;
+}
+.container{
+    text-align: center;
+
+    margin-top: 3%;
+    margin-left: 15%;
+    height: 70%;
+    width: 70%;
+    background-color: #202020 !important;
+}
+.aboutme-text{
+    position: relative;
+    display: block;
+    font-weight: normal;
+    color: white;
+    background-color: #202020;
+    box-shadow: 3px 3px 3px 3px #000;
+}
+.aboutme-text h2{
+    font-size: 36px;
+    font-family: monospace !important;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    margin-bottom: 10px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+}
+.aboutme-text span{
+    color: red;
+}
+.main{
+    margin-top: -5px;
+    background-color: #202020;
+    box-shadow: 2px 1px 1px 2px #000;
+    height: 500px;
+    position: relative;
+    color: white;
+        
+}
+.photo{
+    position: relative;
+    padding: 10px 0 0 10px;
+}
+.photo img{
+    border: 2px solid black;
+    width: 230px;
+    height: 270px;
+    display: block;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.text{
+    margin-top: 3%;
+    margin-left: 30%;
+    text-align: left;
+    display: block;
+    height: 250px;
+}
+.text p{
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.fab{
+    color: pink;
+}
+h3{
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    text-decoration:underline;
+    margin-bottom: 2%;
+}
+.pencapaian{
+    text-align: left;
+    padding-left: 3%;
+}
+.pencapaian p{
+    margin-bottom: 10px;
+}
+.target{
+    margin-top: -1%;
+    text-align: left;
+    margin-right:3%;
+}
+.target p{
+    margin-bottom: 10px;
+}
